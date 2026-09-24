@@ -1,0 +1,186 @@
+# ==========================================
+
+# Reyaansh's Chat App — Git Ignore
+
+# ==========================================
+
+# ------------------------------------------
+
+# Node.js / npm
+
+# ------------------------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager caches
+
+.npm/
+.yarn/
+.pnpm-store/
+
+# ------------------------------------------
+
+# Environment & Secrets
+
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+# ------------------------------------------
+
+# Application Data
+
+# ------------------------------------------
+
+# Local account/database data
+
+data/*.json
+
+# Keep the data directory itself
+
+!data/.gitkeep
+
+# Local uploads
+
+uploads/
+public/uploads/
+
+# Local generated files
+
+storage/
+tmp/
+temp/
+
+# ------------------------------------------
+
+# Logs
+
+# ------------------------------------------
+
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ------------------------------------------
+
+# Build / Generated Files
+
+# ------------------------------------------
+
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+
+# ------------------------------------------
+
+# Testing / Coverage
+
+# ------------------------------------------
+
+coverage/
+.nyc_output/
+
+# ------------------------------------------
+
+# Operating System Files
+
+# ------------------------------------------
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+
+*~
+.directory
+
+# ------------------------------------------
+
+# Editors / IDEs
+
+# ------------------------------------------
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# Vim
+
+*.swp
+*.swo
+
+# Sublime Text
+
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------
+
+# Local Development
+
+# ------------------------------------------
+
+*.local
+.local/
+
+# OS / development environment files
+
+*.pid
+*.pid.lock
+
+# ------------------------------------------
+
+# Temporary Files
+
+# ------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Temporary editor files
+
+.#*
+#*#
+
+# ------------------------------------------
+
+# Optional: Local Configuration
+
+# ------------------------------------------
+
+config.local.js
+config.local.json
+server.local.js
